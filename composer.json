@@ -1,0 +1,27 @@
+{
+    "name": "sogaoh/ore-php-library",
+    "description": "PHP Library by sogaoh just for me.",
+    "type": "library",
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "authors": [
+        {
+            "name": "sogaoh",
+            "email": "sogaoh@ant-in-giant.work"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sogaoh\\OrePhpLibrary\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sogaoh\\OrePhpLibrary\\Tests\\": "tests"
+        }
+    }
+}
